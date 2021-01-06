@@ -24,5 +24,5 @@ interface PhpSpellerException extends Throwable
     /**
      * @return string
      */
-    public function getMessage();
+    public function getMessage(): string;
 }
